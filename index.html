@@ -4,127 +4,237 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Style-Type" content="text/css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
     <title>Keisuke Taniguchi portfolio</title>
 </head>
 <body>
     <header>
-        <div class="header">
-            <img class="header-image" src="./images/BD021055-D384-4EEF-B585-E64421DF2855.jpg">
+        <div class="header" id="header">
+            <img class="header-image" src="./images/1BE3E89C-3D03-4088-A48D-F6138A662336_1_105_c.jpeg">
             <div class="header-right">
                 <p class="header-right">Keisuke Taniguchi portfolio</p>
             </div>
             <div class="side-menu">
-                <a href="index.html">Home</a>
-                /
-                <a href="index.html">Profile</a>
-                /
-                <a href="index.html">Production</a>
+                <ul>
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#profile">PROFILE</a></li>
+                    <li><a href="#production">PRODUCTION</a></li>
+                </ul>
             </div>
         </div> 
     </header>
     <main>
         <!-- 自己紹介文 -->
-        <div class="profile">
-            <h1>ーーーー 自己紹介 ーーーー</h1>
+        <div class="profile" id="profile">
+            <h1>自己紹介</h1>
             <p>はじめまして。私は谷口圭介と申します。<br>
                 歳は23歳。生年月日は1999年(平成11年)4月16日生まれ。趣味はドライブと洗車です。<br>
                 約3年程前に未経験からバックエンドエンジニアとして転職した兄からIT技術の面白さや仕事内容を聞き、<br>
                 私もITの知識や技術を学んでみたいと影響を受けたことからSAMURAIエンジニア塾へ2022年4月に入塾し、<br>
                 学習を開始しました。実際に学習を始めてみて、私が書いたコードが形になっていくのを見てとても感動しました!<br>
-                また、ITについての学習も大変面白く、学んだことを活かして仕事をしてみたいと思っています!
+                また、ITについての学習も大変面白く、学んだことを活かして仕事をしていきたいと思っています!
             </p>
         </div>
         <div>
             <!-- 習った言語の文 -->
             <div>
-                <h1>ーーーー習った言語ーーーー</h1>
+                <h1>習った言語</h1>
 
                 <h3>HTML/CSS 学習期間1年</h3>
-                <h4>できること</h4>
-                <li>margin/paddingでの余白の調整ができる</li>
-                <li>フレックスボックスでの配置ができる</li>
-                <li>Googleマップ導入できる</li>
-                <li>お問い合わせフォームを作成できる</li>
-                <li>positionによるレイアウトができる</li>
-                <li>idやclassを付与して目的のスタイルを充てることができる</li>
-                <li>擬似要素、擬似クラスに設定ができる</li>
-                <li>レスポンシブデザインの理解</li>
-                <li>aタグによるページ内リンクの作成ができる</li>
+                <h4><i class="fas fa-star fa-lg"></i>できること</h4>
+                <ul>
+                    <li><i class="fas fa-check"></i>margin/paddingでの余白の調整ができる</li>
+                    <li><i class="fas fa-check"></i>フレックスボックスでの配置ができる</li>
+                    <li><i class="fas fa-check"></i>Googleマップ導入できる</li>
+                    <li><i class="fas fa-check"></i>お問い合わせフォームを作成できる</li>
+                    <li><i class="fas fa-check"></i>positionによるレイアウトができる</li>
+                    <li><i class="fas fa-check"></i>idやclassを付与して目的のスタイルを充てることができる</li>
+                    <li><i class="fas fa-check"></i>擬似要素、擬似クラスに設定ができる</li>
+                    <li><i class="fas fa-check"></i>レスポンシブデザインの理解</li>
+                    <li><i class="fas fa-check"></i>aタグによるページ内リンクの作成ができる</li>
+                </ul>
 
                 <h3>Javascript 学習期間1ヶ月</h3>
-                <h4>できること</h4>
-                <li>JavaScriptデータ型、変数、定数の理解</li>
-                <li>条件分岐、繰り返し処理、配列、関数、DOM操作ができる</li>
-                <li>簡単な動作を実行して、ホームページに役立てることができる</li>
+                <h4><i class="fas fa-star fa-lg"></i>できること</h4>
+                <ul>
+                    <li><i class="fas fa-check"></i>JavaScriptデータ型、変数、定数の理解</li>
+                    <li><i class="fas fa-check"></i>条件分岐、繰り返し処理、配列、関数、DOM操作ができる</li>
+                    <li><i class="fas fa-check"></i>簡単な動作を実行して、ホームページに役立てることができる</li>
+                </ul>
 
                 <h3>PHP 学習期間6ヶ月</h3>
-                <h4>できること</h4>
-                <li>データの種類、変数、定数、乱数の理解</li>
-                <li>配列、条件分岐、正規表現、繰り返し処理(for,while,foreach)、関数の処理ができる</li>
-                <li>if文の処理ができる</li>
-                <li>データベース接続ができる</li>
+                <h4><i class="fas fa-star fa-lg"></i>できること</h4>
+                <ul>
+                    <li><i class="fas fa-check"></i>データの種類、変数、定数、乱数の理解</li>
+                    <li><i class="fas fa-check"></i>配列、条件分岐、正規表現、繰り返し処理(for,while,foreach)、関数の処理ができる</li>
+                    <li><i class="fas fa-check"></i>if文の処理ができる</li>
+                    <li><i class="fas fa-check"></i>データベース接続ができる</li>
+                </ul>
 
                 <h3>Laravel 学習期間2ヶ月</h3>
-                <h4>できること</h4>
-                <li>twitter、amazon風アプリの作成を教材見ながら作成</li>
-                <li>マイグレーション、ルーディング、アクションの定義、ビューのレンダー、リダイレクトの設定について基礎は学習済み</li>
+                <h4><i class="fas fa-star fa-lg"></i>できること</h4>
+                <ul>
+                    <li><i class="fas fa-check"></i>twitter、amazon風アプリの作成を教材見ながら作成</li>
+                    <li><i class="fas fa-check"></i>マイグレーション、ルーディング、アクションの定義、ビューのレンダー、リダイレクトの設定について基礎は学習済み</li>
+                </ul>
 
-                <h3>Git 学習期間1ヶ月</h3>
-                <h4>できること</h4>
-                <li>add, commit, push, statusなどの基礎知識</li>
-                <li>ブランチやマージの概念を理解している</li>
+                <h3>Git 学習期間2週間</h3>
+                <h4><i class="fas fa-star fa-lg"></i>できること</h4>
+                <ul>
+                    <li><i class="fas fa-check"></i>add, commit, push, statusなどの基礎知識</li>
+                    <li><i class="fas fa-check"></i>ブランチやマージの概念を理解している</li>
+                </ul>
 
-                <h3>MySQL 学習期間3ヶ月</h3>
-                <h4>できること</h4>
-                <li>データベース/テーブルの作成,一覧表示,削除ができる</li>
-                <li>select , insert , delete</li>
-                <li>whereや演算子を組み合わせたSQLを実行できる</li>
-                <li>BETWEEN/LIKE/ORDER BYなどを使ってデータを抽出できる</li>
+                <h3>MySQL 学習期間2週間</h3>
+                <h4><i class="fas fa-star fa-lg"></i>できること</h4>
+                <ul>
+                    <li><i class="fas fa-check"></i>データベース/テーブルの作成,一覧表示,削除ができる</li>
+                    <li><i class="fas fa-check"></i>select , insert , delete</li>
+                    <li><i class="fas fa-check"></i>whereや演算子を組み合わせたSQLを実行できる</li>
+                    <li><i class="fas fa-check"></i>BETWEEN/LIKE/ORDER BYなどを使ってデータを抽出できる</li>
+                </ul>
 
-                <h3>jQuery 学習期間1ヶ月</h3>
-                <h4>できること</h4>
-                <li>イベント処理、CSS操作、class属性の操作、DOM操作ができる</li>
-                <li>フェードイン、フェードアウトなどのアニメーション操作ができる</li>
-                <li>slickを利用してカルーセルを実装できる</li>
-                <li>ページ内リンクのスクロールをなめらかにする処理ができる</li>
-                <li>モーダルによる画像拡大処理ができる</li>
+                <h3>jQuery 学習期間2週間</h3>
+                <h4><i class="fas fa-star fa-lg"></i>できること</h4>
+                <ul>
+                    <li><i class="fas fa-check"></i>イベント処理、CSS操作、class属性の操作、DOM操作ができる</li>
+                    <li><i class="fas fa-check"></i>フェードイン、フェードアウトなどのアニメーション操作ができる</li>
+                    <li><i class="fas fa-check"></i>slickを利用してカルーセルを実装できる</li>
+                    <li><i class="fas fa-check"></i>ページ内リンクのスクロールをなめらかにする処理ができる</li>
+                    <li><i class="fas fa-check"></i>モーダルによる画像拡大処理ができる</li>
+                </ul>
 
-                <h3>Bootstrap 学習期間1ヶ月</h3>
-                <h4>できること</h4>
-                <li>タグや部品を使うことができる</li>
-                <li>グリッドシステムの理解</li>
+                <h3>Bootstrap 学習期間2週間</h3>
+                <h4><i class="fas fa-star fa-lg"></i>できること</h4>
+                <ul>
+                    <li><i class="fas fa-check"></i>タグや部品を使うことができる</li>
+                    <li><i class="fas fa-check"></i>グリッドシステムの理解</li>
+                </ul>
                     
-                <h3>Linux 学習期間1ヶ月</h3>
-                <h4>できること</h4>
-                <li>コマンド操作の学習経験あり</li>
+                <h3>Linux 学習期間2週間</h3>
+                <h4><i class="fas fa-star fa-lg"></i>できること</h4>
+                <ul>
+                    <li><i class="fas fa-check"></i>コマンド操作の学習経験あり</li>
+                </ul>
             </div>
 
             <!-- 制作物の文 -->
-            <div>
-                <h1>ーーーー制作物ーーーー</h1>
-                <li>github</li>
-                <a href="https://github.com/Tanimican/homepage_sample.git">養鶏公式サイト</a>
-                <p><名前><br>養鶏に関するサンプルサイト</p>
-                <p><コンセプト><br>卵や鶏肉が出荷されるまでにどのように養鶏が飼育されているのかを知ることで食育や日頃の食事に感謝するきっかけ作りに繋げたい。</p>
-                <p><作成したきっかけ><br>世間一般であまり知られていない業界について、私が現職へ入社してからの約4年間で経験したことも踏まえて多くの方々へ知ってもらいたいと考えたため。</p>
-                <p><重視している点></p>
-                <li>ホームページから他のページに遷移すること。</li>
-                <li>ECサイトがあること。</li>
-                <li>新規アカウント登録、ログイン機能があること。</li>
-                <p><取り入れた技術><br>HTML,CSS,PHP,MySQL</p>
-                <p><制作期間><br>約2ヶ月</p>
+            <h1>制作物</h1>
+            <div id="production">
+                <h2 class="menu js-menu">養鶏に関する公式サイト</h2>
+                <div class="contents">
+                    <i class="fas fa-link fa-lg"></i>
+                    <a href="https://github.com/Tanimican/homepage_sample.git">githubコード</a>
+                    <div class="container">
+                        <div class="swiper infinite-slider">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="./images/homepage_sample1.png" alt="画像1" /></div>
+                            <div class="swiper-slide"><img src="./images/homepage_sample2.png" alt="画像2" /></div>
+                            <div class="swiper-slide"><img src="./images/homepage_sample3.png" alt="画像3" /></div>
+                            <div class="swiper-slide"><img src="./images/homepage_sample4.png" alt="画像4" /></div>
+                        </div>
+                        </div>
+                    </div>
+                    <h4>＜名前＞</h4>
+                    <p>養鶏に関するサンプルサイト</p>
+                    <h4>＜コンセプト＞</h4>
+                    <p>卵や鶏肉が出荷されるまでにどのように養鶏が飼育されているのかを知ることで食育や日頃の食事に感謝するきっかけ作りに繋げたい。</p>
+                    <h4>＜作成したきっかけ＞</h4>
+                    <p>世間一般であまり知られていない業界について、私が現職へ入社してからの約4年間で経験したことも踏まえて多くの方々へ知ってもらいたいと考えたため。</p>
+                    <h4>＜重視している点＞</h4>
+                    <ul>
+                        <li><i class="fas fa-check"></i>ホームページから他のページに遷移すること。</li>
+                        <li><i class="fas fa-check"></i>ECサイトがあること。</li>
+                        <li><i class="fas fa-check"></i>新規アカウント登録、ログイン機能があること。</li>
+                    </ul>
+                    <h4>＜取り入れた技術＞</h4>
+                    <p>HTML, CSS, PHP, MySQL</p>
+                    <h4>＜制作期間＞</h4>
+                    <p>約2ヶ月</p>
+                </div>
+
+                <!-- Twitter風アプリ -->
+                <h2 class="menu js-menu">教材見ながらTwitter風アプリを作成</h2>
+                <div class="contents">
+                    <div class="container">
+                        <div class="swiper infinite-slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="./images/Twitter_1.png" alt="画像1" /></div>
+                                <div class="swiper-slide"><img src="./images/Twitter_2.png" alt="画像2" /></div>
+                                <div class="swiper-slide"><img src="./images/Twitter_3.png" alt="画像3" /></div>
+                            </div>
+                        </div>
+                    </div>
+                    <h4>＜名前＞</h4>
+                    <p>Twtter風サンプルサイト</p>
+                    <h4>＜コンセプト＞</h4>
+                    <p>簡単に誰でも投稿したり、編集できるようにすること</p>
+                    <h4>＜作成したきっかけ＞</h4>
+                    <p>Laravelを使用する上で作成におすすめで出てきて作ってみたいと思ったから。</p>
+                    <h4>＜重視している点＞</h4>
+                    <ul>
+                        <li><i class="fas fa-check"></i>詳細、削除、更新ボタンがあること。</li>
+                        <li><i class="fas fa-check"></i>新規投稿、編集機能があること。</li>
+                        <li><i class="fas fa-check"></i>phpMyAdminと接続してアカウントを管理されている。</li>
+                    </ul>
+                    <h4>＜取り入れた技術＞</h4>
+                    <p>HTML, Bootstrap, MySQL, Laravel</p>
+                    <h4>＜制作期間＞</h4>
+                    <p>約2週間</p>
+                </div>
+
+                <!-- Todoアプリ -->
+                <h2 class="menu js-menu">教材を見ながらTodoアプリを作成</h2>
+                <div class="contents">
+                    <div class="container">
+                        <div class="swiper infinite-slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="./images/Todo_1.png" alt="画像1" /></div>
+                                <div class="swiper-slide"><img src="./images/Todo_2.png" alt="画像2" /></div>
+                                <div class="swiper-slide"><img src="./images/Todo_3.png" alt="画像3" /></div>
+                                <div class="swiper-slide"><img src="./images/Todo_4.png" alt="画像4" /></div>
+                                <div class="swiper-slide"><img src="./images/Todo_5.png" alt="画像5" /></div>
+                                <div class="swiper-slide"><img src="./images/Todo_6.png" alt="画像6" /></div>
+                            </div>
+                        </div>
+                    </div>
+                    <h4>＜名前＞</h4>
+                    <p>Todoアプリ</p>
+                    <h4>＜コンセプト＞</h4>
+                    <p>自分の目標や日常の管理をTodoアプリを使って管理できます。</p>
+                    <h4>＜作成したきっかけ＞</h4>
+                    <p>プログラミングの勉強をしていく中で、毎日の目標や日常管理をしていました。<br>
+                        そこでTodoアプリを作ることによって毎日の目標の管理がしやすくならないかと思い、作成しました。</p>
+                    <h4>＜重視している点＞</h4>
+                    <ul>
+                        <li><i class="fas fa-check"></i>詳細、削除、更新ボタンがあること。</li>
+                        <li><i class="fas fa-check"></i>新規投稿、編集機能があること。</li>
+                        <li><i class="fas fa-check"></i>新規アカウント登録、ログイン機能があること。</li>
+                        <li><i class="fas fa-check"></i>phpMyAdminと接続してアカウントを管理されている。</li>
+                        <li><i class="fas fa-check"></i>完了、未完了の切り替え。完了ボタンを押したら打ち消し線で消される。</li>
+                        <li><i class="fas fa-check"></i>タグの追加、目標の追加のモーダルが表示できる。</li>
+                    </ul>
+                    <h4>＜取り入れた技術＞</h4>
+                    <p>HTML, Bootstrap, MySQL, Laravel</p>
+                    <h4>＜制作期間＞</h4>
+                    <p>約2週間</p>
+                </div>
             </div>
             
             <!-- 現在取り組んでいる文 -->
             <div>
-                <h2>ーーーー内定(2023.1.6)をいただいてから取り組んだことーーーー</h2>
-                <li>プロフィールサイトの作成</li>
-                <li>paizaラーニングで「Cランク獲得ストーリー」(PHP)を学習</li>
-                <li>paizaラーニングでプログラミングスキルチェックでB〜Cランクの問題を解いてPHPの理解を深めた</li>
-
+                <h3>内定(2023.1.6)をいただいてから取り組んだこと</h3>
+                <ul>
+                    <li><i class="fas fa-check"></i>プロフィールサイトの作成</li>
+                    <li><i class="fas fa-check"></i>paizaラーニングで「Cランク獲得ストーリー」(PHP)を学習</li>
+                    <li><i class="fas fa-check"></i>paizaラーニングでプログラミングスキルチェックでC~Dランクの問題を解いてPHPの理解を深めた</li>
+                </ul>
             </div>
         </div>
     </main>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="js/style.js"></script>
 </body>
 </html>
