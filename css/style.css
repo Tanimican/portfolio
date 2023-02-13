@@ -1,0 +1,39 @@
+body {
+    margin: 0
+  }
+  /* 全体構成 */
+  main {
+    margin: 5px 0px 60px 350px;
+  }
+
+/* header部分 */
+  .header-image {
+    opacity: 0.7;
+    width: 100%;
+  }
+  
+  .header-right {
+    position: absolute;
+    top: -15%;
+    right: 0%;
+    font-size: 120px;
+    font-weight: bold;
+  }
+
+  /* サイドメニュー */
+  .side-menu {
+    font-size: 60px;
+    position: absolute;
+    top: 100%;
+    right: 30%;
+    color: aliceblue;
+  }
+
+  
+
+  
+
+
+
+
+
